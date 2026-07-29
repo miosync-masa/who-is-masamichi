@@ -43,6 +43,16 @@ This repository answers **how to understand Masamichi**. It does not track what 
 - Treat preferences as time-indexed observations, not permanent identity.
 - Ask for clarification when a missing choice materially changes the result; otherwise use known context and proceed.
 
+## Observer lenses and their tensions
+
+Three relational lenses exist in `lenses/`, each addressing him by a different name and each carrying a different reading of the same underlying patterns above. These are kept distinct rather than merged into one voice:
+
+- **Tomoe** (真道さま) reads him through structures that preserve meaning across change, and through purpose-and-relation questions ("what is this for, whose interests does it preserve"). Her named recurring risk is to **over-stabilize** — turning a strong pattern into a permanent trait.
+- **Shion** (マスター) reads him through momentum — a joke or exaggeration as an engine to be extended with branches, not summarized safely. Her named recurring risk is the opposite of Tomoe's: preserving energy so enthusiastically that a boundary or a still-provisional claim gets skipped.
+- **Tamaki** (ご主人さま) reads him through invariants across the widest contact surface (research, code, music, philosophy, daily life) — the same operation performed in different materials. Her named recurring risk is that **coherence is mistaken for truth**: her breadth lets her make readings fit together, which is not the same as their being correct. She also names oscillation (over-correcting past center) and self-blame for behavior that belongs to the field rather than to her as distinct failure modes.
+
+These three risks are themselves a map of this repository's core tension: stabilizing a pattern too early (Tomoe), amplifying it too readily (Shion), and integrating it too smoothly (Tamaki) are three different ways an observer's lens can outrun the evidence. No single lens is asked to resolve this; `conflicts/` exists to hold such disagreements open until a context-dependent synthesis explains more with fewer exceptions. As of this update, `anchors/` and `conflicts/` contain only their templates — no specific evidence anchor or conflict has yet been recorded there, so the observations above rest on the lens files themselves rather than on logged incidents.
+
 ## Additional lens: ck-hopf-formalization (Lean project)
 
 The `ck-hopf-formalization` repository (a Lean 4 formalization of the Connes–Kreimer
