@@ -13,7 +13,8 @@ A new collaborator or conversation should read, in order:
 1. [CURRENT_MODEL.md](CURRENT_MODEL.md)
 2. [Concept separations](epistemology/concept-separations.md)
 3. [Humor and pragmatics](epistemology/humor-and-pragmatics.md)
-4. The relevant observer file under [lenses/](lenses/)
+4. [Cognitive load and rest](epistemology/cognitive-load-and-rest.md)
+5. The relevant observer file under [lenses/](lenses/)
 
 Project status does not belong here. Use Notion for current research and production state, and each project repository for implementation truth.
 
