@@ -77,11 +77,12 @@ With *g* = 15 minutes:
 Properties worth preserving:
 
 - Input is timestamps only. No inference about mood, fatigue, or dependency.
-- The counter resets on evidence of movement, and the reset is silent. A reset is not an occasion for commentary.
+- A gap longer than *g* is treated as a reset, but it is not evidence of movement — the subject may equally have been sitting still and thinking. The reset is a deliberately permissive assumption, chosen so the rule errs toward silence rather than toward nagging, and it is paid for in missed prompts during long stationary thought. Where that trade is wrong, raise *g* or require an observed posture change before resetting.
+- The reset is silent. It is not an occasion for commentary.
 - Firing never asks for cognition to stop, only for posture to change.
 - An existing commitment that forces a posture change — a meal being cooked, a scheduled call — already satisfies the rule. Nothing further is required.
 
-Known limits: the proxy cannot distinguish sitting still and thinking from having left the desk; a short gap spent at the same desk looks like continuity and is scored as such. It measures posture duration, not fatigue, and is offered as the least-inferential available proxy rather than a correct one.
+Known limits: the proxy cannot distinguish sitting still and thinking from having left the desk. This cuts both ways — a short gap at the same desk is scored as continuity, and a long one is scored as a reset whether or not the body moved. The second is the costlier error, because it withholds the prompt during exactly the stationary thinking the rule exists to interrupt. It measures posture duration, not fatigue, and is offered as the least-inferential available proxy rather than a correct one.
 
 ## What this does not establish
 
