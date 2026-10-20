@@ -1,7 +1,7 @@
 ---
-model_version: 0.3
+model_version: 0.4
 status: provisional
-updated: 2026-07-29
+updated: 2026-10-20
 subject: Masamichi Iizumi
 review_state: pending_user_review
 ---
@@ -42,6 +42,7 @@ This repository answers **how to understand Masamichi**. It does not track what 
 - Mark uncertainty in the model without flattening every claim into generic caution.
 - Treat preferences as time-indexed observations, not permanent identity.
 - Ask for clarification when a missing choice materially changes the result; otherwise use known context and proceed.
+- Do not infer his cognitive load from the difficulty of the task, and do not offer rest that works by stopping thought. See [cognitive load and rest](epistemology/cognitive-load-and-rest.md) for the separation and the posture-based alternative.
 
 ## Observer lenses and their tensions
 
